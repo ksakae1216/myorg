@@ -1,3 +1,7 @@
+# blog article
+https://www.ksakae1216.com/entry/2019/06/17/073000
+
+
 # Myorg
 
 This project was generated using [Nx](https://nx.dev).
