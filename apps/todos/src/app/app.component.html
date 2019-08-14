@@ -1,13 +1,9 @@
 <div style="text-align:center">
   <h1>Todos</h1>
-  <ul>
-    <li *ngFor="let t of todos" class="todo">{{t.title}}</li>
-  </ul>
-  <button id="add-todo" (click)="addTodo()">Add Todo</button>
-  <img
-    width="450"
-    src="https://raw.githubusercontent.com/nrwl/nx/master/nx-logo.png"
-  />
+
+  <myorg-todos [todos]="todos"></myorg-todos>
+  
+  <button (click)="addTodo()">Add Todo</button>
 </div>
 
 <p>This is an Angular app built with <a href="https://nx.dev">Nx</a>.</p>
