@@ -12,11 +12,12 @@
       "tags": []
     },
     "todos": {
-      "tags": [
-        "linting"
-      ]
+      "tags": ["linting"]
     },
     "api": {
+      "tags": []
+    },
+    "data": {
       "tags": []
     }
   }
